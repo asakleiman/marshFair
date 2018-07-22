@@ -1,0 +1,33 @@
+WEBSITE TIMELINE (revised)
+
+The first goal is to replace the current functionality of the existing website with a more aesthetically appealing design that works with mobile and desktop clients.
+
+The second goal is to incorporate addional features.
+
+Jul 27: Present first proposals
+Aug 3: Approval on inital design, work begins
+
+-4 weekly reports to be issued, beta website available for private review and testing during development
+
+Sept 2: basic (first goal) website live @ marshfieldculturalfair.com, w/core features of current website, start receiving visitors
+
+Live website: fixing new user and live website bugs and increasing browser compatability
+
+beta website: adding non-core features, user-requested features, etc (second goal)
+
+Oct 15: Final bugfixes, triage non-working features, push final version to live website
+
+Nov 1: Final delivery.
+
+
+All dates are estimated.
+
+content notes:
+Tharp, Julie <julie.tharp@uwc.edu> wrote:
+No, more as a resource for teachers and others trying to learn more about cultural diversity and the issues that affect our understanding.  We'd like a page with relevant educational links, perhaps a page with links to other cultural festivals, and some content that is yet to be determined.  Mike is the one pushing for this, but we all support the idea.  He has more specifics.
+
+Space for more material.  We would like to make this a year-round resource for educators and community groups.
+
+More interactive.
+
+Clearer route to the scheduling which is what most users want.

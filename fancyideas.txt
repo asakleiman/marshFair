@@ -1,0 +1,3 @@
+-when someone wants a booth at the fair, they can fill out a form that will be emailed to you
+-a donor wall,  where you can assign different sizes to different name plaques.
+	-an easy way to add, edit and remove name plaques

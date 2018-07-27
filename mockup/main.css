@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  font-family: sans-serif;
+}
+
+div {
+  padding: 10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.header {
+  background: darkred;
+  text-align: center;
+}
+
+.fixed-header {
+  position: sticky;
+  top: -1px;
+  background: darkred;
+  display: flex;
+  justify-content: space-between;
+  z-index: 5;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  height: 40%;
+  word-wrap: break-word;
+  color: black;
+}
+
+/*
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+*/
+
+.fixed-footer{
+  position: fixed;
+  bottom: 0px;
+  background: darkred;
+  width: 100%;
+
+ }
+.links-left a{
+  padding-right: 2em;
+}
+
+.links-center{
+  text-align: center;
+}
+
+.links-right a{
+  padding-left: 2em;
+}
+.col:first-child { 
+  margin-left: 0; 
+}
+.video {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.vimeo {
+    left:0;
+    top:0;
+    height:100%;
+    width:auto;
+    position:absolute;
+}
+
+[class*=".span_*"] {
+    float: left;
+    padding: 15px;
+    border: 1px solid red;
+}
+
+.span_3 { width: 100%;   border: 10px;
+  border-color: black;}
+.span_2 { width: 66.13%; }
+.span_1 { width: 32.26%; }

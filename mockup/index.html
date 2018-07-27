@@ -1,0 +1,99 @@
+<!doctype html>
+<!-- For Educational Purposes Only -->
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  </head>
+
+  <body>  
+    <div class="header">
+      <h1>MARSHFIELD CULTURAL FAIR</h1>
+    </div>
+    <div class="fixed-header">
+      <div class="links-left">
+        <a href="">MISSION</a>
+        <a href="">GALLERY</a>
+        <a href="">EDUCATION</a>
+      </div>
+      <div class="links-center">
+        <a href="">WHERE<br>&<br>WHEN</a>
+      </div>
+      <div class="links-right">
+          <a href="">WHO WE ARE</a>
+          <a href="">SPONSOR</a>
+          <a href="">VOLUNTEER</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="span_1">           
+        <div class="video">
+<!--          <div id="made-in-ny" class="vimeo"></div>-->
+          <iframe class=vimeo src="https://player.vimeo.com/video/207636249?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="span_2">
+        <p>words go here and here and here and here and here and here and here and here and here and here</p>
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="span_2">
+        <p>Oh hey look some more words and stuff goin on here.</p>
+      </div>
+      <div class="span_1">
+        <img src=download.jpg>
+      </div>
+    </div>
+    <div class="row">
+      <div class="span_1">
+        <img src="MarshFieldSaudi.jpg">
+      </div>
+      <div class="span_2">
+        <p>Lots of words here too, oh boy, bet they say something cool.</p>
+      </div>
+    </div>
+    <div class="fixed-footer">
+      (c) Marshfield Cultural Fair 2018 
+    </div>
+  </body>
+  
+</html>
+
+
+<script src="https://player.vimeo.com/api/player.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>
+//    var options = {
+//        id: 59777392,
+//        width: 640,
+//        loop: true,
+//        background: true,
+//        maxwidth: 100
+//    };
+
+//    var player = new Vimeo.Player('made-in-ny', options);
+      var iframe = document.querySelector('iframe');
+    var player = new Vimeo.Player(iframe);
+
+    player.setVolume(0);
+
+    player.on('play', function() {
+        console.log('played the video!');
+    });
+
+
+    var figure = $(".vimeo").hover( hoverVideo, hideVideo );
+
+    function hoverVideo(e) {  
+        player.play();
+        
+    }
+
+    function hideVideo(e) {
+      player.pause();
+    }
+
+
+</script>

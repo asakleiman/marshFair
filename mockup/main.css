@@ -37,6 +37,9 @@ img {
   display: flex;
   justify-content: space-between;
   z-index: 5;
+    border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
+  max-height: 3em;
 }
 
 .row {
@@ -69,6 +72,10 @@ img {
 
 .links-center{
   text-align: center;
+  background-color:darkred;
+  border-bottom-left-radius: 2em;
+  border-bottom-right-radius: 2em;
+  height:4.5em;
 }
 
 .links-right a{
@@ -97,7 +104,6 @@ img {
     border: 1px solid red;
 }
 
-.span_3 { width: 100%;   border: 10px;
-  border-color: black;}
+.span_3 { width: 100%;   border: 10px;}
 .span_2 { width: 66.13%; }
 .span_1 { width: 32.26%; }

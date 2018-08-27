@@ -1,0 +1,54 @@
+<!doctype html>
+<!-- For Educational Purposes Only -->
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  </head>
+
+  <body>  
+    <div class="header">
+      <h1>MARSHFIELD CULTURAL FAIR</h1>
+    </div>
+    <div class="fixed-header">
+      <div class="links-left">
+        <a href="">MISSION</a>
+        <a href="gallery.html">GALLERY</a>
+        <a href="">EDUCATION</a>
+      </div>
+      <div class="links-center">
+        <a href="wherewhen.html">WHERE<br>&<br>WHEN</a>
+      </div>
+      <div class="links-right">
+          <a href="">WHO WE ARE</a>
+          <a href="">SPONSOR</a>
+          <a href="vendors.html">EXHIBIT WITH US</a>
+      </div>
+    </div>
+    
+      <div id="expandCont" class="expander">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <p>Test Content</p>
+        <p>Information:<br>Tips:<br>Examples:<br>Registration:<br>Contact Person:</p>
+      </div>
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
+      
+      
+      
+    <div class="fixed-footer">
+      (c) Marshfield Cultural Fair 2018 - Find us on <a href="https://www.facebook.com/events/325777767938019/">Facebook</a>!
+    </div>
+  </body>
+  
+</html>
+<script>
+  function openNav() {
+      document.getElementById("expandCont").style.width = "250px";
+  }
+
+  function closeNav() {
+      document.getElementById("expandCont").style.width = "0";
+  }
+</script>

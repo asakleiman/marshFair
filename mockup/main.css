@@ -11,6 +11,10 @@ html, body {
   font-family: sans-serif;
 }
 
+p.right {
+  text-align: right;
+}
+
 div {
   padding: 10px;
 }

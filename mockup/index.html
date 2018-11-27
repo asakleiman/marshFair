@@ -77,7 +77,7 @@
       var iframe = document.querySelector('iframe');
     var player = new Vimeo.Player(iframe);
 
-    player.setVolume(0);
+    player.setVolume(100);
 
     player.on('play', function() {
         console.log('played the video!');
@@ -85,6 +85,7 @@
 
     var figure = $(".vimeo").hover( hoverVideo, hideVideo );
 
+  
     function hoverVideo(e) {  
         player.play();
         

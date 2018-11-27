@@ -16,9 +16,10 @@ div {
 }
 
 a {
-  color: white;
+  color: black;
   text-decoration: none;
 }
+
 
 img {
   height: 100%;
@@ -47,9 +48,10 @@ img {
   display: flex;
   flex-wrap: wrap;
   align-content: space-between;
-  height: 40%;
+  height: 20%;
   word-wrap: break-word;
   color: black;
+  text-align: center;
 }
 
 /*
@@ -108,7 +110,7 @@ img {
 
 .donor-box {
   border:.1em solid black;
-  background-color:lightblue;
+  background-color:lightcoral;
   border-radius: 3em;
   padding: 1em;
   margin-left: .5em;

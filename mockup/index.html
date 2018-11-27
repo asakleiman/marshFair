@@ -19,7 +19,11 @@
         <a href="">EDUCATION</a>
       </div>
       <div class="links-center">
-        <a href="wherewhen.html">WHERE<br>&<br>WHEN</a>
+        <a href="wherewhen.html" id="curvedown">WHERE & WHEN &</a>
+<!--
+        <a href="wherewhen.html"><br>&<br></a>
+        <a href="wherewhen.html" id="curveup">WHEN</a>
+-->
       </div>
       <div class="links-right">
           <a href="aboutUs.html">WHO WE ARE</a>
@@ -28,6 +32,7 @@
       </div>
     </div>
     <div class="row">
+      <div class="span_3"></div> 
       <div class="span_1">           
         <div class="video">
           <iframe class=vimeo src="https://player.vimeo.com/video/207636249?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -65,6 +70,7 @@
 
 <script src="https://player.vimeo.com/api/player.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="js/circletype.min.js"></script>
 <script>
     var iframe = document.querySelector('iframe');
     var player = new Vimeo.Player(iframe);
@@ -88,5 +94,11 @@
       player.pause();
     }
     
+
+</script>
+<script>
+  new CircleType(document.getElementById('curvedown'))
+  .forceWidth(true)
+  .forceHeight(true);
 
 </script>

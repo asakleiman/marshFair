@@ -16,7 +16,7 @@ div {
 }
 
 a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
@@ -114,7 +114,9 @@ img {
   border-radius: 3em;
   padding: 1em;
   margin-left: .5em;
-
+}
+.span_3 a{
+  color: black;
 }
 .donor-box p {
   font-size: 1.5em;

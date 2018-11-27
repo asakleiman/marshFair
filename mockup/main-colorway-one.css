@@ -7,8 +7,10 @@ html, body {
   height: 100%;
   margin: 0px;
   padding: 0px;
-  color: white;
-  font-family: sans-serif;
+  color: #FFC145;
+  font-family: 'Amatic SC', cursive;
+  font-size: 120%;
+  background-color: #9AC2C9;
 }
 
 p.right {
@@ -20,7 +22,7 @@ div {
 }
 
 a {
-  color: white;
+  color: #FFC145;
   text-decoration: none;
 }
 
@@ -30,8 +32,10 @@ img {
   object-fit: contain;
 }
 .header {
-  background: darkred;
+  background: #8C3B3B;
   text-align: center;
+  font-family: 'Barrio', cursive;
+  font-size: 150%;
 }
 .content {
   padding: 10em;
@@ -40,13 +44,14 @@ img {
 .fixed-header {
   position: sticky;
   top: -1px;
-  background: darkred;
+  background: #8C3B3B;
   display: flex;
   justify-content: space-between;
   z-index: 5;
     border-bottom-left-radius: 50% 20%;
   border-bottom-right-radius: 50% 20%;
   max-height: 3em;
+  font-family: 'Barrio', cursive;
 }
 
 .row {
@@ -55,22 +60,18 @@ img {
   align-content: space-between;
   height: 40%;
   word-wrap: break-word;
-  color: black;
+  color: #FFFFFB;
 }
 
-/*
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-*/
 
 .fixed-footer{
   position: fixed;
   bottom: 0px;
-  background: darkred;
+  background: #8C3B3B;
   width: 100%;
+  border-top-right-radius: 50% 20%;
+  border-top-left-radius: 50% 20%;
+  font-family: 'Barrio', cursive;
 
  }
 .links-left a{
@@ -79,7 +80,7 @@ img {
 
 .links-center{
   text-align: center;
-  background-color:darkred;
+  background-color:#8C3B3B;
   border-bottom-left-radius: 2em;
   border-bottom-right-radius: 2em;
   height:4.5em;

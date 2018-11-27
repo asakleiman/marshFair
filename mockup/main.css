@@ -33,6 +33,9 @@ img {
   background: darkred;
   text-align: center;
 }
+.content {
+  padding: 10em;
+}
 
 .fixed-header {
   position: sticky;

@@ -7,10 +7,15 @@ html, body {
   height: 100%;
   margin: 0px;
   padding: 0px;
-  color: white;
-  font-family: sans-serif;
+  color: #FFC145;
+  font-family: 'Abril Fatface', serif;
+  background-color: #9AC2C9;
 }
 
+h1 {
+  font-weight: normal;
+
+}
 p.right {
   text-align: right;
 }
@@ -30,23 +35,28 @@ img {
   object-fit: contain;
 }
 .header {
-  background: darkred;
+  background: #8C3B3B;
   text-align: center;
+  font-family: 'Barrio', sans-serif;
+  font-size: 150%;
 }
 .content {
-  padding: 10em;
+  padding: 2em;
+  color: black;
 }
 
 .fixed-header {
   position: sticky;
   top: -1px;
-  background: darkred;
+  background: #8C3B3B;
   display: flex;
   justify-content: space-between;
   z-index: 5;
     border-bottom-left-radius: 50% 20%;
   border-bottom-right-radius: 50% 20%;
-  max-height: 3em;
+  max-height: 4.5em;
+  font-family: 'Barrio', sans-serif;
+  font-size: 120%;
 }
 
 .row {
@@ -58,35 +68,47 @@ img {
   color: black;
 }
 
-/*
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-*/
 
 .fixed-footer{
   position: fixed;
   bottom: 0px;
-  background: darkred;
+  background: #8C3B3B;
   width: 100%;
+  border-top-right-radius: 50% 20%;
+  border-top-left-radius: 50% 20%;
+  font-family: 'Barrio', cursive;
 
  }
+
+.header-link {
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .links-left a{
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  word-wrap: break-word;
+  color: #FFFFFB;
   padding-right: 2em;
+  align-items: center;
+  position: relative;
 }
 
 .links-center{
   text-align: center;
-  background-color:darkred;
-  border-bottom-left-radius: 2em;
-  border-bottom-right-radius: 2em;
-  height:4.5em;
+  font-weight: bolder;
+  background-color:#8C3B3B;
+  border-bottom-left-radius: 3.5em;
+  border-bottom-right-radius: 3.5em;
+  height:6em;
 }
 
 .links-right a{
+  white-space: nowrap;
   padding-left: 2em;
+  color: white
 }
 .col:first-child { 
   margin-left: 0; 
@@ -105,11 +127,13 @@ img {
     height: calc(100% - 55px);
 }
 
+/*
 [class*=".span_*"] {
     float: left;
     padding: 15px;
     border: 1px solid red;
 }
+*/
 
 .span_3 { width: 100%;   border: 10px;}
 .span_2 { width: 66.13%; }

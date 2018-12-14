@@ -1,0 +1,94 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="formfill.css">
+  </head>
+ <body>
+  <TABLE BORDER="0" WIDTH="800">
+    <TD>
+  <button class="no-print" onclick="window.print()" type="button">PRINT</button>
+  <title>Food Vendor Application</title>
+  
+      <div class="address">
+        <h1> Marshfield Cultural Fair<br> Febuary 23rd<br> University of Wisconsin-Stevens Point at Marshfield<br>2000 West 5th Street</h1>
+      </div>
+  <h1 class="formName"> Food and Beverage Vendors Application</h1>
+      <p>To participate, please complete and return this form as soon as possible.<br></p>
+      
+      <form>
+        <p>Business name:<input type="text" placeholder="Your Business"></p>
+        <p>Contact Person Mailing Address:</p>
+        <textarea placeholder="John Smith&#13;&#10;Example Organisation&#13;&#10;123 Example St&#13;&#10;Marshfield, WI 54449"></textarea>
+        <p>Telephone:<input type="text" class="tel_number" placeholder="715-555-1234">Email:<input type="text" class="email_field" placeholder="your.email@goeshere.com"></p>
+        <p>Please list the foods & beverages you plan to serve and the prices to be charged:</p>
+        <div class="row">
+          <div class="span_food">
+            Food / Beverage
+          </div>
+          <div class="span_price">
+            Cost
+          </div>
+        </div>
+        <div id="food_list">
+          <div class="food_row">
+            <div class="span_food">
+              <input type="text" class="food_input" placeholder="Example Food">
+            </div>
+            <div class="span_price">
+              <input type="text" placeholder="1 ticket">
+            </div>
+          </div>
+          <div class="food_row">
+            <div class="span_food">
+              <input type="text" class="food_input" placeholder="Example Food">
+            </div>
+            <div class="span_price">
+              <input type="text" placeholder="1 ticket">
+            </div>
+          </div>
+          <div class="food_row">
+            <div class="span_food">
+              <input type="text" class="food_input" placeholder="Example Food">
+            </div>
+            <div class="span_price">
+              <input type="text" placeholder="1 ticket">
+            </div>
+          </div>
+          <div class="food_row">
+            <div class="span_food">
+              <input type="text" class="food_input" placeholder="Example Food">
+            </div>
+            <div class="span_price">
+              <input type="text" placeholder="1 ticket">
+            </div>
+          </div>
+          
+        </div>
+        <button class="no-print" onclick="myFunction()" type="button">+ADD ITEM</button>
+        <p>We would like to particpate in the <a href="vendors.html">STAR program.</a><input type="checkbox"></p>
+        <p>What are your set-up requirements (electrical, 6’/8’ tables, chairs, kitchen, etc.)?</p>
+        <textarea></textarea>
+      </form>
+      <p>Please note the following participation criteria:<br>*Items offered for sale should fit the international/ethnic character of the Fair. With the exception of designated food vendors, only non-profit organizations may sell. Food vendors will remit 10% of profits to the University of Wisconsin-Stevens Point at Marshfield for facilities expenses and support of the Fair.<br>*The proposed activity/display should play a positive role and strive to promote harmony and respect for diversity in the community.<br>*All applications for participation are subject to approval by Marshfield Social Justice and the University of Wisconsin-Stevens Point at Marshfield County Office of Continuing Education.</p>
+      <p class="address">Submit Application to:<br>Marshfield Cultural Fair, Julie Tharp, President<br>2000 W. Fifth St., UW-Stevens Point at Marshfield, <br>Marshfield, WI 54449<br>For further information call 715-389-6514</p>
+
+      
+    </TD>
+    </TABLE>    
+
+  
+  
+  
+
+</body> 
+  <button class="no-print" onclick="window.print()" type="button">PRINT</button>
+  <script>
+    function myFunction() {
+
+      document.getElementById("food_list").innerHTML += '<div class="food_row"> <div class="span_food"> <input type="text" class="food_input" placeholder="Example Food"> </div> <div class="span_price"> <input type="text" placeholder="1 ticket"></div> </div>';
+}
+
+</script>
+</html>

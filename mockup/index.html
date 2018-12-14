@@ -4,8 +4,8 @@
   <head>
   <meta charset="UTF-8">  
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="main-colorway-one.css">
-  <link href="https://fonts.googleapis.com/css?family=Amatic+SC:bold|Barrio|Black+Han+Sans|Cookie|Cormorant+Upright|Courgette|Dancing+Script|Kaushan+Script|Monoton|Mountains+of+Christmas|Mouse+Memoirs|Purple+Purse|Ranga|Shadows+Into+Light|Spicy+Rice|Abril+Fatface" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC:bold|Barrio|Abril+Fatface" rel="stylesheet">
   </head>
 
   <body>  
@@ -14,9 +14,15 @@
     </div>
     <div class="fixed-header">
       <div class="links-left">
-        <a href="mission.html">MISSION</a>
-        <a href="gallery.html">GALLERY</a>
-        <a href="">EDUCATION</a>
+        <div class="header-link">
+          <a href="mission.html">MISSION</a>
+        </div>
+        <div class="header-link">
+          <a href="gallery.html">GALLERY</a>
+        </div>
+        <div class="header-link">
+          <a href="">EDUCATION<br>RESOURCES</a>
+        </div>
       </div>
       <div class="links-center">
         <a href="wherewhen.html" id="curvedown">WHERE & WHEN &</a>
@@ -26,9 +32,15 @@
 -->
       </div>
       <div class="links-right">
+        <div class="header-link">
           <a href="aboutUs.html">WHO WE ARE</a>
+        </div>
+        <div class="header-link">
           <a href="donors.html">SPONSOR</a>
-          <a href="vendors.html">EXHIBIT WITH US</a>
+        </div>
+        <div class="header-link">
+          <a href="vendors.html">PARTICIPATE</a>
+        </div>
       </div>
     </div>
     <div class="row">
@@ -45,7 +57,7 @@
     </div>
     <div class="row">
       <div class="span_2">
-        <p class="right">The Marshfield Cultural Fair is a project of the Marshfield Cultural Fair Association (MCFA) of Marshfield, Wisconsin and its partners: the  University of Wisconsin-Stevens Point at Marshfield Office of Continuing Education, Marshfield Social Justice and The Chestnut Avenue Center for the Arts. MCFA is a non-profit organization under the umbrella of the Marshfield Area Chamber Foundation.</p>
+        <p class="right">The Marshfield Cultural Fair is a project of the Marshfield Cultural Fair Association (MCFA) of Marshfield, Wisconsin and its partners: the  University of Wisconsin-Stevens Point at Marshfield Office of Continuing Education & Marshfield Social Justice. MCFA is a non-profit organization under the umbrella of the Marshfield Area Chamber Foundation.</p>
       </div>
       <div class="span_1">
         <img src=download.jpg>
@@ -94,9 +106,6 @@
       player.pause();
     }
     
-
-</script>
-<script>
   new CircleType(document.getElementById('curvedown'))
   .forceWidth(true)
   .forceHeight(true);

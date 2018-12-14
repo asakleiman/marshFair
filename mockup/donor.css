@@ -7,8 +7,9 @@ html, body {
   height: 100%;
   margin: 0px;
   padding: 0px;
-  color: white;
-  font-family: sans-serif;
+  color: #FFC145;
+  font-family: 'Abril Fatface', serif;
+  background-color: #9AC2C9;
 }
 
 div {
@@ -27,20 +28,28 @@ img {
   object-fit: contain;
 }
 .header {
-  background: darkred;
+  background: #8C3B3B;
   text-align: center;
+  font-family: 'Barrio', sans-serif;
+  font-size: 150%;
+}
+
+.header h1 {
+  font-weight: normal;
+
 }
 
 .fixed-header {
   position: sticky;
   top: -1px;
-  background: darkred;
+  background: #8C3B3B;
   display: flex;
   justify-content: space-between;
   z-index: 5;
     border-bottom-left-radius: 50% 20%;
   border-bottom-right-radius: 50% 20%;
-  max-height: 3em;
+  max-height: 4.5em;
+  font-family: 'Barrio', sans-serif;
 }
 
 
@@ -48,7 +57,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   align-content: space-between;
-  height: 20%;
+  height: auto;
   word-wrap: break-word;
   color: black;
   text-align: center;
@@ -65,24 +74,42 @@ img {
 .fixed-footer{
   position: fixed;
   bottom: 0px;
-  background: darkred;
+  background: #8C3B3B;
   width: 100%;
+  border-top-right-radius: 50% 20%;
+  border-top-left-radius: 50% 20%;
+  font-family: 'Barrio', sans-serif;
 
  }
+
+.header-link {
+  display: inline-block;
+
+}
+
 .links-left a{
+    display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  word-wrap: break-word;
+  color: #FFFFFB;
   padding-right: 2em;
+  align-content: space-between;
 }
 
 .links-center{
   text-align: center;
-  background-color:darkred;
-  border-bottom-left-radius: 2em;
-  border-bottom-right-radius: 2em;
-  height:4.5em;
+  font-weight: bolder;
+  background-color:#8C3B3B;
+  border-bottom-left-radius: 3.5em;
+  border-bottom-right-radius: 3.5em;
+  height:6em;
 }
 
 .links-right a{
+  white-space: nowrap;
   padding-left: 2em;
+  color: white
 }
 .col:first-child { 
   margin-left: 0; 
@@ -99,25 +126,40 @@ img {
     height:100%;
 }
 
+/*
 [class*=".span_*"] {
     float: left;
     padding: 15px;
 }
+*/
 
+.span_half { width: 40%; 
+  display: block;
+  margin: 0 auto;
+}
 .span_3 { width: 100%;}
 .span_2 { width: 66.13%; }
 .span_1 { width: 32.26%; }
 
 .donor-box {
   border:.1em solid black;
-  background-color:lightcoral;
+  background-color:#FFDDA1;
   border-radius: 3em;
   padding: 1em;
-  margin-left: .5em;
+  margin-left: .5em;font-size: 2.5vw; 
+  font-size: 1.5vw;
 }
+/*
 .span_3 a{
-  color: black;
+  color: white;
 }
+*/
 .donor-box p {
   font-size: 1.5em;
+  color: #8C3B3B;
+
+}
+.donor-box a {
+    color: #8C3B3B;
+
 }

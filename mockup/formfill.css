@@ -1,0 +1,85 @@
+input {
+  border: 0;
+  border-bottom: 2px solid black;
+}
+textarea {
+  width: 100%;
+  height: 105px;
+  box-sizing: border-box;
+  border: 2px solid black;
+  font-size: 15px;
+  resize: none;
+}
+h1 {
+  font-size: 120%;
+}
+.tel_number{
+  width: 10em;
+}
+.email_field{
+  width: 40em;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  height: 40%;
+  word-wrap: break-word;
+  color: black;
+}
+.food_row {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  height: 40%;
+  word-wrap: break-word;
+  color: black;
+}
+.food_input {
+  width: 95%
+}
+.address {
+  text-align: center;
+}
+.span_food { width: 60% }
+.span_price { width: 40% }
+
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+
+    ::-webkit-input-placeholder { /* WebKit browsers */
+        color: transparent;
+    }
+    :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+       color: transparent;
+    }
+    ::-moz-placeholder { /* Mozilla Firefox 19+ */
+       color: transparent;
+    }
+    :-ms-input-placeholder { /* Internet Explorer 10+ */
+       color: transparent;
+    }
+
+    textarea::-webkit-input-placeholder { /* WebKit browsers */
+        color: transparent;
+    }
+    textarea:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+       color: transparent;
+    }
+    textarea::-moz-placeholder { /* Mozilla Firefox 19+ */
+       color: transparent;
+    }
+    textarea:-ms-input-placeholder { /* Internet Explorer 10+ */
+       color: transparent;
+    }
+    
+  a {
+    text-decoration: none;
+    color:black;
+  }
+
+}

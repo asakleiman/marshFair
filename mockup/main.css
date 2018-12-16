@@ -32,11 +32,11 @@ a {
   text-decoration: none;
 }
 
-/*
+
 p {
-  font-weight: lighter;
+  font-family: 'Gabriela', serif;
 }
-*/
+
 
 img {
   height: 100%;
@@ -85,6 +85,7 @@ img {
   font-size: 120%;
 }
 
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -102,7 +103,7 @@ img {
   width: 100%;
   border-top-right-radius: 50% 20%;
   border-top-left-radius: 50% 20%;
-  font-family: 'Barrio', cursive;
+  font-family: 'Barrio', sans-serif;
 
  }
 
@@ -131,6 +132,9 @@ img {
   height:6em;
 }
 
+#curveup {
+  font-size: 120%;
+}
 .links-right a{
   display: inline-flex;
   flex-wrap: wrap;

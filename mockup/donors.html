@@ -5,7 +5,7 @@
   <meta charset="UTF-8">  
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="donor.css">
-  <link href="https://fonts.googleapis.com/css?family=Amatic+SC:bold|Barrio|Abril+Fatface" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Gabriela|Barrio|Abril+Fatface" rel="stylesheet">
   </head>
 
   <body>  
@@ -28,8 +28,8 @@
           <a href="education.html">EDUCATION &<br>RESOURCES</a>
         </div>
       </div>
-      <div class="links-center">
-        <a href="index.html"><br><h1>HOME</h1></a>
+      <div class="links-center"><br><br><br>
+        <a href="index.html" id="curveup"><h1>HOME</h1></a>
 <!--
         <a href="wherewhen.html"><br>&<br></a>
         <a href="wherewhen.html" id="curveup">WHEN</a>
@@ -112,6 +112,13 @@
 <script src="js/addon.js"></script>
 <script>  
   new CircleType(document.getElementById('curvedown'))
+  .forceWidth(true)
+  .forceHeight(true);
+</script>
+<script>
+  new CircleType(document.getElementById('curveup'))
+  .radius(70)
+  .dir(-1)
   .forceWidth(true)
   .forceHeight(true);
 </script>

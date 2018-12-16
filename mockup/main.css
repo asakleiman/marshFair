@@ -163,3 +163,25 @@ img {
 .span_3 { width: 100%;   border: 10px;}
 .span_2 { width: 66.13%; }
 .span_1 { width: 32.26%; }
+
+.justify_right {
+  position: absolute;
+  right: 0px;
+  padding-left: 15em;
+}
+
+.sidebar {
+  width: 10em;
+  position: fixed;
+  z-index: 1;
+  top: 20em;
+  left: 0em;
+  background: #FFC145;
+  overflow-x: hidden;
+  padding: 1em 0;
+  border-top-right-radius: 1em;
+  border-bottom-right-radius: 1em;
+}
+.sidebar a{
+  margin-bottom: 1em;
+}

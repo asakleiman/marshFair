@@ -10,7 +10,11 @@
 
   <body>  
     <div class="header">
-      <h1>MARSHFIELD CULTURAL FAIR</h1>
+      <div class="logo">
+        <h1 class="stretch"><span class="stretch_it">MARSHFIELD</span><br></h1>
+        <h1 class="stretch"><span class="stretch_it">CULTURAL<br></span></h1>
+        <h1 class="stretch"><span class="stretch_it">FAIR</span></h1>
+      </div>
     </div>
     <div class="fixed-header">
       <div class="links-left">
@@ -104,3 +108,10 @@
 </html>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="js/circletype.min.js"></script>
+<script src="js/addon.js"></script>
+<script>  
+  new CircleType(document.getElementById('curvedown'))
+  .forceWidth(true)
+  .forceHeight(true);
+</script>

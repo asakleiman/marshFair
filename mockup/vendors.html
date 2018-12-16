@@ -10,7 +10,11 @@
 
   <body>  
     <div class="header">
-      <h1>MARSHFIELD CULTURAL FAIR</h1>
+      <div class="logo">
+        <h1 class="stretch"><span class="stretch_it">MARSHFIELD</span><br></h1>
+        <h1 class="stretch"><span class="stretch_it">CULTURAL<br></span></h1>
+        <h1 class="stretch"><span class="stretch_it">FAIR</span></h1>
+      </div>
     </div>
     <div class="fixed-header">
       <div class="links-left">
@@ -45,12 +49,28 @@
     </div>
     
     <div class="content">
-      <a href="food_vendor_form.html"  
+      <div class="span_3">
+        <h2>Exhibit At the Fair</h2>
+        <p>Got something to show off? Please join us! Complete instructions are on the form below.</p>
+              <a href="exhibitor_form.html"  
+    onclick="window.open('exhibitor_form.html', 
+                         'newwindow', 
+                         'width=900,height=900'); 
+              return false;">Exhibitor Form</a><br>
+      </div>
+      <div class="span_3">
+        <h2>Share Some Food at the Fair</h2>
+        <p>Do you have some cultural food to bring to the fair? Use this form.</p>
+            <a href="food_vendor_form.html"  
     onclick="window.open('food_vendor_form.html', 
                          'newwindow', 
                          'width=900,height=900'); 
               return false;">Food Vendor Form</a><br>
-      Be a STAR at the Cultural Fair<br>As a food vendor for the 2019 Marshfield Cultural Fair, we invite you to participate in the Samples Tasting And Review (STAR) competition. To compete you need to offer a sample size option of your food choices for Fairgoers. In addition to the Fairgoers who try your samples, there will be STAR Judges who will purchase your sample size portion (you select what goes into the sample) and they will complete a review of your food sample and submit that to us. Samples will be judged on appearance, aroma and taste. A STAR sample size will cost  1 ticket.<br>We will add up STAR Judge reviews and the food vendor with the highest reviews is the STAR of the Fair. <br>Grand Prize: Your food vendor fee is waived and you will be included in our website and Facebook as the STAR.<br>If you wish to enter the STAR competition please write that on your Food Vendor application. If you have already submitted your Food Vendor application, please contact us and let us know you want to be a STAR. 
+      </div>
+      <div class="span_3">
+        <h2>Be a S.T.A.R.</h2>
+        Be a STAR at the Cultural Fair<br>As a food vendor for the 2019 Marshfield Cultural Fair, we invite you to participate in the Samples Tasting And Review (STAR) competition. To compete you need to offer a sample size option of your food choices for Fairgoers. In addition to the Fairgoers who try your samples, there will be STAR Judges who will purchase your sample size portion (you select what goes into the sample) and they will complete a review of your food sample and submit that to us. Samples will be judged on appearance, aroma and taste. A STAR sample size will cost  1 ticket.<br>We will add up STAR Judge reviews and the food vendor with the highest reviews is the STAR of the Fair. <br>Grand Prize: Your food vendor fee is waived and you will be included in our website and Facebook as the STAR.<br>If you wish to enter the STAR competition please write that on your Food Vendor application. If you have already submitted your Food Vendor application, please contact us and let us know you want to be a STAR. 
+      </div>
 </div>
     
 
@@ -61,12 +81,11 @@
   </body>
   
 </html>
-<script>
-  function openNav() {
-      document.getElementById("expandCont").style.width = "250px";
-  }
-
-  function closeNav() {
-      document.getElementById("expandCont").style.width = "0";
-  }
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="js/circletype.min.js"></script>
+<script src="js/addon.js"></script>
+<script>  
+  new CircleType(document.getElementById('curvedown'))
+  .forceWidth(true)
+  .forceHeight(true);
 </script>

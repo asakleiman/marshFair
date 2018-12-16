@@ -38,6 +38,14 @@ img {
   font-weight: normal;
 
 }
+.logo {
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 50%;
+/*  background-color: #FFC145;*/
+  border-radius: 1em;
+}
 
 .fixed-header {
   position: sticky;

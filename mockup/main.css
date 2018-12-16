@@ -82,7 +82,7 @@ img {
   border-bottom-right-radius: 50% 20%;
   max-height: 4.5em;
   font-family: 'Barrio', sans-serif;
-  font-size: 120%;
+  font-size: 150%;
 }
 
 
@@ -123,18 +123,34 @@ img {
   position: relative;
 }
 
-.links-center{
+.links-center{ 
   text-align: center;
   font-weight: bolder;
   background-color:#8C3B3B;
   border-bottom-left-radius: 3.5em;
   border-bottom-right-radius: 3.5em;
-  height:6em;
+  height:6.5em;
+}
+
+.big-month {
+  font-size:150%
+}
+
+.big-date {
+/*  top: .5em;*/
+  position: relative;
+  font-size:250%
 }
 
 #curveup {
-  font-size: 120%;
+  position: relative;
+  top: -1em;
 }
+.curved-home {
+
+  font-size: 150%;
+}
+
 .links-right a{
   display: inline-flex;
   flex-wrap: wrap;
@@ -162,13 +178,6 @@ img {
     height: calc(100% - 55px);
 }
 
-/*
-[class*=".span_*"] {
-    float: left;
-    padding: 15px;
-    border: 1px solid red;
-}
-*/
 .span_half { width: 40%; 
   display: block;
   margin: 0 auto;
@@ -178,16 +187,16 @@ img {
 .span_1 { width: 32.26%; }
 
 .decorated {
-  padding-top: 1em;
-  padding-bottom: 1em;
-  margin-top: -.4em;
-  margin-bottom: -.4em;
+
+  padding-left: 2em;
+  padding-right 2em;
+  margin-bottom: -.2em;
   border-top:.2em solid black;
   border-bottom:.2em solid black;
-  border-top-right-radius: 5% 20%;
-  border-top-left-radius: 5% 20%;
-  border-bottom-left-radius: 5% 20%;
-  border-bottom-right-radius: 5% 20%;
+  border-top-right-radius: 1% 1%;
+  border-top-left-radius: 5% 30%;
+  border-bottom-left-radius: 1% 1%;
+  border-bottom-right-radius: 5% 30%;
 }
 
 .justify_right {
@@ -207,7 +216,4 @@ img {
   padding: 1em 0;
   border-top-right-radius: 1em;
   border-bottom-right-radius: 1em;
-}
-.sidebar a{
-  margin-bottom: 1em;
 }

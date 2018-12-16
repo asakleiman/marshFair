@@ -30,7 +30,9 @@
         </div>
       </div>
       <div class="links-center">
-        <a href="wherewhen.html" id="curvedown">WHERE & WHEN &</a>
+        <a href="wherewhen.html" class="big-month">FEBUARY</a><br>
+        <a href="wherewhen.html" class="big-date">23</a>
+        <a href="wherewhen.html" id="curveup" class="big-directions">DIRECTIONS</a>
       </div>
       <div class="links-right">
         <div class="header-link">
@@ -87,6 +89,13 @@
 <script src="js/addon.js"></script>
 <script>  
   new CircleType(document.getElementById('curvedown'))
+  .forceWidth(true)
+  .forceHeight(true);
+</script>
+<script>
+  new CircleType(document.getElementById('curveup'))
+  .radius(70)
+  .dir(-1)
   .forceWidth(true)
   .forceHeight(true);
 </script>

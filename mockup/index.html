@@ -80,7 +80,43 @@
     </div>
   </body>
   
+<!--  COMMENT POPUP-->
+  <div class="form-popup" id="myForm">
+  <form class="form-container">
+      <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+      <h1>Developer's Notes</h1>
+      Hello, everyone!<br>There was some miscommunication last time this in-development prototype was presented, so I thought I'd take the time to add some information on what we're doing and where we're going.<br><br>First off, let me talk about some design choices: The cut-paper font, I feel, fits really well with the community-oriented, stone-soup feeling of the fair. It's exciting, stylish, dynamic and still feels personable and handcraft-y. The colors are exciting and contrasting, but not eye-searing. Links are in white, information text is in black, and the colors are differentiatable even under color-blindness. Everything is text-reader compatable so should be accessable.<br><br>
+      Where we're going:
+      <h2>Step 1: Replace current website functionality.</h2>
+      We're pretty much complete on this front, and once this current version is approved, I'll replace the Live website with the one you're seeing now.(minus these notes, of course).
+      <h2>Step 2: Improvements and additions.</h2>
+      <ul>1: Improve accessability & portable device compatability - Underway, will continue to improve as I work on the website. It's already better than the current one, for the most part.</ul>
+      <ul>2: Interactive gallery: Exploring options on this one. Needed features: Visitors can upload photos, photos can be commented on and arranged in subsections. Should be ready by New Year. The current Gallery is <i>just a placeholder</i> and will be replaced.</ul>
+      <ul>3: Easy-to-update 'news' section where organisers can post updates: Haven't started on this.</ul>
+      <ul>3: Planning form & planning tools (for organisers, volunteers, exhibitors, and other fair participants): Working on this as well, basic functionality should be available at the same time the new gallery is up.</ul>
+      <ul>4: Discussion forum for promoting diversity, multiculturalism: See above.</ul>
+      <ul>5: Anything else - email <a href="mailto:studio.retrograde@gmail.com">me</a> or Mike if you have any other features you'd like to see added. Would we like to sell merchandise? An active countdown to the fair opening? Live webcam?</ul>
+      <h2>Step 3: Review 2019 Fair, Prepare for 2020</h2>
+        Pretty self-explanitory. Find out how people used the website for the '19 fair, figure out what we can do better, and get the website set up for 2020.<br><br>
+    Finally, if you experience any issues, please include what browser (chrome/firefox/opera/etc) and device (Pc/mac/android tablet/mac tablet) you're using when you tell me!<br>Thanks,<br>Asa
+    
+      
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+  
+  
 </html>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
 
 
 <script src="https://player.vimeo.com/api/player.js"></script>

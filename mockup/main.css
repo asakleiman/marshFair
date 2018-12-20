@@ -44,6 +44,7 @@ img {
   object-fit: contain;
 }
 .header {
+  width: 100%;
   background: #8C3B3B;
   text-align: center;
   font-family: 'Barrio', sans-serif;

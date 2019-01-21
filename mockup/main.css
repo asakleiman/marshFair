@@ -74,6 +74,7 @@ img {
 
 .fixed-header {
   position: sticky;
+  position: -webkit-sticky;
   top: -1px;
   background: #8C3B3B;
   display: flex;
@@ -299,4 +300,7 @@ img {
 }
 .form-container a {
   color:red;
+}
+svg {
+  width: 100%;
 }

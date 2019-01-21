@@ -76,6 +76,7 @@ p {
 
 .links-center{ 
   text-align: center;
+  align-content: center;
   font-weight: bolder;
   background-color:#8C3B3B;
   border-bottom-left-radius: 3.5em;
@@ -121,6 +122,15 @@ p {
   font-size: 150%;
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  height: 40%;
+  word-wrap: break-word;
+  color: black;
+}
+
 /*Smaller Windows*/
 @media screen and (max-width: 1425px) {
 .fixed-header {
@@ -142,14 +152,14 @@ p {
 
 /*Smallest*/
 @media screen and (max-width: 850px) {
-.fixed-header {
+  .fixed-header {
     position: sticky;
     position: -webkit-sticky;
     top: -1px;
     width: 100%;
     background: #8C3B3B;
-    display: flex;
-    justify-content: space-between;
+    display: inherit;
+    justify-content: none;
     z-index: 5;
     border-bottom-left-radius: 50% 20%;
     border-bottom-right-radius: 50% 20%;
@@ -158,8 +168,46 @@ p {
     font-size: 100%;
   }
   .header-link {
+    display: inherit;
+    vertical-align: none;
+  }
+  .row {
+    display: inherit;
+  /*  flex-wrap: wrap;*/
+  /*  align-content: space-between;*/
+    justify-content: center;
+    height: 50vw;
+    word-wrap: break-word;
+    color: black;
+    font-size: 2vw;
+  }
+  .links-right a{
+    text-align: center;
+    display: inherit;
+    flex-wrap: wrap;
+    align-content: space-between;
+    word-wrap: break-word;
+    color: #FFFFFB;
+    padding-right: 2em;
+    align-items: center;
+    position: relative;
+  }
+  .links-left a{
+  text-align: center;
   display: inherit;
-  vertical-align: none;
+  flex-wrap: wrap;
+  align-content: space-between;
+  word-wrap: break-word;
+  color: #FFFFFB;
+  padding-right: 2em;
+  align-items: center;
+  position: relative;
+  }
+  .big-directions {
+    display: inline-flex;
+  }
+  .links-center {
+    align-content: center;
   }
 }
 
@@ -194,14 +242,7 @@ img {
 
 
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: space-between;
-  height: 40%;
-  word-wrap: break-word;
-  color: black;
-}
+
 
 
 .fixed-footer{
